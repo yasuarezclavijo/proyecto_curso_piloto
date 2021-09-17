@@ -1,0 +1,16 @@
+.logo {
+  width: 70px; }
+
+.btn-company {
+  background-color: yellow;
+  color: black; }
+  .btn-company:hover {
+    background-color: yellowgreen; }
+
+.carousel-item-height {
+  max-height: 500px; }
+  .carousel-item-height .carousel-caption {
+    color: white;
+    font-weight: bold; }
+
+/*# sourceMappingURL=home.css.map */
