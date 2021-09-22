@@ -2,7 +2,6 @@
   width: 70px; }
 
 .btn-company {
-  background-color: yellow;
   color: black; }
   .btn-company:hover {
     background-color: yellowgreen; }
@@ -12,5 +11,24 @@
   .carousel-item-height .carousel-caption {
     color: white;
     font-weight: bold; }
+
+.highligth-card {
+  border: 2px black solid;
+  box-shadow: 10px 10px #c3c3c3; }
+  .highligth-card img {
+    height: 300px; }
+
+.horizontal-body {
+  display: inline-block !important; }
+
+.float-right {
+  float: right; }
+
+.gray-company {
+  background-color: burlywood; }
+
+@media screen and (max-width: 557px) {
+  .mb-xs-3-custom {
+    margin-bottom: 1.5rem; } }
 
 /*# sourceMappingURL=home.css.map */
