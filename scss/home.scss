@@ -1,14 +1,3 @@
-.logo {
-    width: 70px;
-}
-
-.btn-company {
-    color: black;
-    &:hover {
-        background-color: yellowgreen;
-    }
-}
-
 .carousel-item-height {
     max-height: 500px;
     .carousel-caption {
@@ -27,10 +16,6 @@
 
 .horizontal-body {
     display: inline-block !important;
-}
-
-.float-right {
-    float: right;
 }
 
 .gray-company {

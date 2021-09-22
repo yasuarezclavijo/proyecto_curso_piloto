@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div class="container-fluid">
+            <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom mx-2">
+                <a href="#" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+                    <img class="logo" data-name="mascoticas" src="img/logo.png" alt="logo">
+                </a>
+
+                <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">Features</a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">Pricing</a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">FAQs</a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">About</a></li>
+                </ul>
+
+                <div class="col-md-3 text-end">
+                    <button id="btn_login" type="button" class="btn btn-outline-primary me-2">Login</button>
+                    <button type="button" class="btn btn-primary btn-company">Sign-up</button>
+                </div>
+            </header>
+            <div class="row">
+                <div class="col-12">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block center-image" src="img/contactenos.jpg" alt="contact">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1>Contactenos</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-8">
+                    <form id="contactform" method="get" class="my-5" novalidate>
+                        <div class="form-group row my-2">
+                            <label for="name" class="col-sm-2 col-form-label">Nombre</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control  form-control-lg" id="name" name="name" placeholder="Ingrese su nombre">
+                            </div>
+                        </div>
+                        <div class="form-group row my-2">
+                            <label for="email" class="col-sm-2 col-form-label">Email</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control  form-control-lg" id="email" name="email" placeholder="ejemplo@micorreo.com">
+                            </div>
+                        </div>
+                        <div class="form-group row my-2">
+                            <label for="city" class="col-sm-2 col-form-label">Ciudad</label>
+                            <div class="col-sm-10">
+                                <select name="city" class="form-control form-control-lg" id="city">
+                                    <option value="01">Bogotá</option>
+                                    <option value="02">Cali</option>
+                                    <option value="03">Medellin</option>
+                                    <option value="04">Cartagena</option>
+                                    <option value="05">Barranquilla</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row my-2">
+                            <label for="city" class="col-sm-2 col-form-label">Tipo de solicitud</label>
+                            <div class="col-sm-10">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="type_request" id="pet" value="peticion">
+                                    <label class="form-check-label" for="pet">Petición</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="type_request" id="quej" value="queja">
+                                    <label class="form-check-label" for="quej">Queja</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row my-2">
+                            <label for="name" class="col-sm-2 col-form-label">Mensaje</label>
+                            <div class="col-sm-10">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" name="message" rows="5" maxlength="500"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-4 offset-8">
+                                <button type="submit" class="btn btn-primary float-right">Enviar!!!</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <footer class="gray-company">
+                <div class="col-12 text-center p-4">
+                    © 2021 Copyright: <a class="text-reset fw-bold" href="#">Adoptandomascotas.com</a>
+                </div>
+            </footer>
+        </div>
+        <script src="vendor/jQuery/jquery-3.6.0.min.js"></script>
+        <script src="js/contact.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+.logo {
+    width: 70px;
+}
+
+.btn-company {
+    color: black;
+    &:hover {
+        background-color: yellowgreen;
+    }
+}
+
+.gray-company {
+    background-color: burlywood;
+}
+
+.float-right {
+    float: right;
+}
