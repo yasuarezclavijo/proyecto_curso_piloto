@@ -44,10 +44,25 @@
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container mt-3">
             <div class="row">
                 <div class="col-12 text-center">
                     <h1>Contactenos</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 offset-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Nuestros canales</h5>
+                            <p class="card-text">
+                                Tambien puede contactarnos por medio de:
+                            </p>
+                            Celular: <a href="tel:573043358662" class="card-link">+573043358662</a>
+                            <br> Email:
+                            <a href="mailto:yasuarezclavijo@gmail.com" class="card-link">yasuarezclavijo@gmail.com</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row">
@@ -70,6 +85,7 @@
                             <label for="city" class="col-sm-2 col-form-label">Ciudad</label>
                             <div class="col-sm-10">
                                 <select name="city" class="form-control form-control-lg" id="city">
+                                    <option value="">Seleccione una opción...</option>
                                     <option value="01">Bogotá</option>
                                     <option value="02">Cali</option>
                                     <option value="03">Medellin</option>
@@ -82,11 +98,11 @@
                             <label for="city" class="col-sm-2 col-form-label">Tipo de solicitud</label>
                             <div class="col-sm-10">
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="type_request" id="pet" value="peticion">
+                                    <input class="form-check-input radio_request" type="radio" name="type_request" id="pet" value="peticion">
                                     <label class="form-check-label" for="pet">Petición</label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="type_request" id="quej" value="queja">
+                                    <input class="form-check-input radio_request" type="radio" name="type_request" id="quej" value="queja">
                                     <label class="form-check-label" for="quej">Queja</label>
                                 </div>
                             </div>
@@ -94,18 +110,21 @@
                         <div class="form-group row my-2">
                             <label for="name" class="col-sm-2 col-form-label">Mensaje</label>
                             <div class="col-sm-10">
-                                <textarea class="form-control" id="exampleFormControlTextarea1" name="message" rows="5" maxlength="500"></textarea>
+                                <textarea class="form-control" id="textareamessage" name="message" rows="5" maxlength="500"></textarea>
                             </div>
                         </div>
                         <div class="form-group row">
                             <div class="col-4 offset-8">
-                                <button type="submit" class="btn btn-primary float-right">Enviar!!!</button>
+                                <button type="submit" class="btn btn-primary float-right" id="sendForm">Enviar!!!</button>
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
+        <a href="https://wa.me/573043358662/?text=Hola%20profe" class="icon_fixed_wa" target="_blank">
+            <img src="img/icono_whatsapp.png" width="60"> Whatsapp
+        </a>
         <div class="container-fluid">
             <footer class="gray-company">
                 <div class="col-12 text-center p-4">

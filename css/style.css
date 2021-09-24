@@ -12,4 +12,10 @@
 .float-right {
   float: right; }
 
+.icon_fixed_wa {
+  position: fixed;
+  bottom: 80px;
+  right: 80px;
+  z-index: 100; }
+
 /*# sourceMappingURL=style.css.map */
