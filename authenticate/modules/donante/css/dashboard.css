@@ -1,0 +1,29 @@
+.bg-company {
+  background-color: #cce013; }
+  .bg-company a {
+    color: #000; }
+  .bg-company .btn-company {
+    color: #000; }
+  .bg-company .bg-button {
+    background-color: #e40a15;
+    border-color: #e40a15; }
+
+.sb-sidenav-company {
+  background-color: #cce013; }
+  .sb-sidenav-company a {
+    color: #e40a15; }
+
+ul.pagination li {
+  border: 1px solid #000; }
+  ul.pagination li a {
+    color: #e40a15; }
+
+.container-pets {
+  padding: 1em;
+  margin: 2em 1em;
+  min-height: 1000px;
+  background-color: #afafaf; }
+  .container-pets .row {
+    margin-bottom: 20px; }
+
+/*# sourceMappingURL=dashboard.css.map */

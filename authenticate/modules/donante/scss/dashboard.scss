@@ -1,0 +1,43 @@
+$bg_company: #cce013;
+$letter_bg_company: #000;
+$colorlinkmenu: rgb(228, 10, 21);
+$gray: #afafaf;
+.bg-company {
+    background-color: $bg_company;
+    a {
+        color: $letter_bg_company;
+    }
+    .btn-company {
+        color: $letter_bg_company;
+    }
+    .bg-button {
+        background-color: $colorlinkmenu;
+        border-color: $colorlinkmenu;
+    }
+}
+
+.sb-sidenav-company {
+    background-color: $bg_company;
+    a {
+        color: $colorlinkmenu;
+    }
+}
+
+ul.pagination {
+    li {
+        border: 1px solid $letter_bg_company;
+        a {
+            color: $colorlinkmenu;
+        }
+    }
+}
+
+.container-pets {
+    padding: 1em;
+    margin: 2em 1em;
+    min-height: 1000px;
+    background-color: $gray;
+    .row {
+        margin-bottom: 20px;
+    }
+}
